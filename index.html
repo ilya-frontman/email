@@ -143,7 +143,6 @@
       .copy-td {
         padding-bottom: 30px;
       }
-
       @media (max-width: 870px) {
         .table-850 {
           width: 600px !important;
@@ -166,7 +165,6 @@
           padding-left: 20px !important;
         }
       }
-
       @media (max-width: 620px) {
         .table-850 {
           width: 400px !important;
@@ -185,10 +183,17 @@
           margin: auto !important;
         }
         .menu {
-          width: 300px !important;
+          width: 400px !important;
+          text-align: center !important;
         }
         .menu td {
-          padding-left: 27px;
+          padding-left: 40px !important;
+        }
+        .menu-footer {
+          width: 400px !important;
+        }
+        .features-td td {
+          padding-left: 0;
         }
         .block-td {
           display: block !important;
@@ -224,18 +229,16 @@
           padding-bottom: 40px !important;
         }
       }
-      @media (max-width: 400px) {
+      @media (max-width: 480px) {
         .table-850 {
           width: 320px !important;
         }
         .table-600 {
           width: 200px !important;
         }
-        .menu-footer {
+        .menu-footer, .menu {
           width: 300px !important;
-        }
-        .menu td {
-          padding-left: 18px;
+          text-align: center !important;
         }
         .block-table {
           width: 280px !important;
@@ -243,22 +246,54 @@
         .features-td {
           padding-bottom: 80px !important;
         }
-        .menu-footer td {
-          padding-left: 17px;
+        .menu-footer td, .menu td {
+          padding-left: 8px !important;
         }
-        @media (max-width: 320px) {
-          .menu {
-            width: 250px !important;
-          }
-          .menu td {
-            padding-left: 14px;
-          }
-          .menu-footer {
-            width: 280px !important;
-          }
-          .menu-footer td {
-            padding-left: 11px;
-          }
+        .menu td {
+          padding-left: 18px !important;
+        }
+      }
+      @media (max-width: 360px) {
+        .table-850 {
+          width: 300px !important;
+        }
+        .table-600 {
+          width: 200px !important;
+        }
+        .menu-footer, .menu {
+          width: 240px !important;
+        }
+        .menu-footer td {
+            padding-left: 8px !important;
+        }
+        .menu td {
+          padding-left: 12px !important;
+        }
+        .menu-footer td a, .menu td a{
+          font-size: 13px;
+        }
+      }
+      @media (max-width: 320px) {
+        .table-850 {
+          width: 270px !important;
+        }
+        .table-600 {
+          width: 250px !important;
+        }
+        .menu td a{
+          font-size: 13px;
+        }
+        .menu-footer, .menu {
+          width: 240px !important;
+        }
+        .menu-footer td, .menu td {
+          padding-left: 8px !important;
+        }
+        .menu td {
+          padding-left: 14px !important;
+        }
+        .block-table {
+          width: 250px !important;
         }
       }
     </style>
@@ -282,7 +317,7 @@
       cellpadding="0"
       cellspacing="0"
       width="100%"
-      bgcolor="#ec5483"
+      bgcolor="#c7c9d2"
     >
     <tr>
       <td>
@@ -295,17 +330,17 @@
               <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
                 <tr>
                   <td align="left" class="logo">
-                    <a href="#">
+                    <a href="#" target="_blank">
                       <img src="https://ilya-artdesigner.github.io/email/img/bella.png" alt="logo" />
                     </a>
                   </td>
                   <td align="right" class="menu">
                     <table cellpadding="0" cellspacing="0">
                       <tr>
-                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
-                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Features</a></td>
-                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Pricing</a></td>
-                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact</a></td>
+                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Team</a></td>
+                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Features</a></td>
+                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Pricing</a></td>
+                        <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Contact</a></td>
                       </tr>
                     </table>
                   </td>
@@ -315,7 +350,7 @@
           </tr>
           <tr>
             <td class="banner-td">
-              <a href="#">
+              <a href="#" target="_blank">
                 <img src="https://ilya-artdesigner.github.io/email/img/banner.png" alt="banner" />
               </a>
             </td>
@@ -328,7 +363,7 @@
                     <img src="https://ilya-artdesigner.github.io/email/img/return.png" alt="return-icon" />
                     <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
                       phoncus ut, imperdiet vel<br />venenatis vitae justo ullam<br />dictum felis eu pede mollis<br />pretium massa.</p>
-                    <a href="#">
+                    <a href="#" target="_blank">
                       <img src="https://ilya-artdesigner.github.io/email/img/read-more.png" alt="read more" />
                     </a>
                   </td>
@@ -337,7 +372,7 @@
                     <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
                       phoncus ut, imperdiet vel<br />venenatis vitae justo ullam<br />dictum felis eu pede mollis<br />pretium massa.
                     </p>
-                    <a href="#">
+                    <a href="#" target="_blank">
                       <img src="https://ilya-artdesigner.github.io/email/img/read-more.png" alt="read more" />
                     </a>
                   </td>
@@ -346,7 +381,7 @@
                     <p style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">
                       phoncus ut, imperdiet vel<br />venenatis vitae justo ullam<br />dictum felis eu pede mollis<br />pretium massa.
                     </p>
-                    <a href="#">
+                    <a href="#" target="_blank">
                       <img src="https://ilya-artdesigner.github.io/email/img/read-more.png" alt="read more" />
                     </a>
                   </td>
@@ -418,7 +453,7 @@
               <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
                 <tr>
                   <td align="center" class="logo-footer">
-                    <a href="#">
+                    <a href="#" target="_blank">
                       <img src="https://ilya-artdesigner.github.io/email/img/bella-footer.png" alt="logo">
                     </a>
                   </td>
@@ -426,10 +461,10 @@
                 <tr>
                   <table cellpadding="0" cellspacing="0" class="menu-footer" align="center" width="350">
                     <tr>
-                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">About Us</a></td>
-                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Team</a></td>
-                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">News</a></td>
-                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';">Contact Us</a></td>
+                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">About Us</a></td>
+                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Team</a></td>
+                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">News</a></td>
+                      <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, 'Raleway';" target="_blank">Contact Us</a></td>
                     </tr>
                   </table>
                 </tr>
