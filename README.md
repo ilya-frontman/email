@@ -1,4 +1,4 @@
 # email
 email resourse files.
 
-checkout https://ilya-artdesigner.github.io/email/
+checkout https://ilya-frontman.github.io/email/
